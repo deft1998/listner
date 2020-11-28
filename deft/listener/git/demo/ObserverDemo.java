@@ -7,6 +7,6 @@ public class ObserverDemo implements MyObserver {
     @Override
     public void update(MyObservable o, Object arg) {
         System.out.println(
-                "数据发生改变，测试成功！哒哒哒哒哒dd哒");
+                "数据发生改变，测试成功！哒哒哒哒哒dd哒1231");
     }
 }
