@@ -6,6 +6,7 @@ import design.deft.decorate.mode.deft.listener.git.component.MyObserver;
 public class ObserverDemo implements MyObserver {
     @Override
     public void update(MyObservable o, Object arg) {
-        System.out.println("数据发生改变，测试成功！");
+        System.out.println(
+                "数据发生改变，测试成功！哒哒哒哒哒哒");
     }
 }

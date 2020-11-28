@@ -9,8 +9,8 @@ public class ObservableDemo extends MyObservable {
         return data;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setData(String date) {
+        this.data = date;
         this.setChange();
         this.notifyObservers();
     }
