@@ -8,5 +8,6 @@ public class Test {
         ObservableDemo observable = new ObservableDemo();
         observable.addObservers(new ObserverDemo());
         observable.setData("数据改变");
+        System.out.print("冲突解决");
     }
 }
